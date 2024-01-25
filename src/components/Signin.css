@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+.signIn{
+    display: flex;
+    box-sizing: border-box;
+}
+.signIn .company{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../assets/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem;
+}
+.signIn .company img{
+    color: #fff;
+    height: 80px;
+    width: 80px;
+}
+.signIn .company p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.signIn .company .media{
+    display: flex;
+    justify-content: center;
+}
+.signIn .company .media img{
+    height:48px;
+    width: 48px;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.signIn .login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+.signIn .login .head{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+    gap: 1rem;
+}
+.signIn .login .head h1{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+.signIn .login .head p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.signIn .login .g-a{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.signIn .login .g-a p{
+    background-color: #FFF;
+    color: var(--Secondary-Text, #858585);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 3px;
+    border-radius: 5px;
+}
+.signIn .login .g-a img{
+    height: 16px;
+    width: 16px;
+}
+.signIn .login .form{
+    display: flex;
+    background-color: #FFF;
+    margin-top: 20px;
+    width: 422.635px;
+    height: 347.988px;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.signIn .login .form form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    justify-content: space-evenly;
+}
+
+.signIn .login .form form label{
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.signIn .login .form form input{
+    margin-top: 5px;
+    border-radius: 10px;
+    background: var(--Background, #F5F5F5);
+    width: 356.77px;
+    height: 43.91px;
+    padding-left: 10px;
+    border-style: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.signIn .login .form form a{
+    color: #346BD4;
+}
+
+.signIn .login .form form button{
+    border-radius: 10px;
+    background: #605BFF;
+    width: 356.77px;
+    height: 43.91px;
+    border-style: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.signIn .login .reg{
+    color: var(--Secondary-Text, #858585);
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.signIn .login a{
+    color: var(--Link, #346BD4);
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

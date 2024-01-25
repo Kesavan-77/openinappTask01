@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+.upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.head {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.form-upload {
+    display: flex;
+    padding: 2rem;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    align-items: center;
+    margin: auto;
+}
+
+.form-border {
+    width: 564px;
+    height: 258px;
+}
+
+.form-upload p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.btn-upload {
+    display: flex;
+    width: 564px;
+    height: 56px;
+    padding: 8px 16px 8px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #605BFF;
+    color: #fff;
+    border-style: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.bro {
+    color: blue;
+    margin-left: 5px;
+}
+
+.exc {
+    margin-top: 10%;
+}
+
+.btn-remove {
+    margin-top: 5%;
+    color: red;
+    font-size: 14px;
+}
+.table{
+    width: 90%;
+    background-color: #F5F5F5;
+    padding: 1rem 1rem 1rem 1rem ;
+    height: 419px;
+    margin-left: 5%;
+}
+
+.table thead th{
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    padding: 10px;
+}
+.table tbody{
+    padding: 1rem;
+    background-color: #fff;
+
+}
+.table tbody tr{
+    background-color: #fff;
+    border-radius: 20px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.table tbody td{
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+.table .sno{
+    width: 5%;
+}
+.table .link{
+    width: 20%;
+}
+.table .prefix{
+    width: 20%;
+}
+.table .addTag{
+    width: 20%;
+}
+.table .tags{
+    width: 35%;
+}
+.table tbody .s-tag{
+    text-align: start;
+}
+.table tbody .s-tag ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+.table tbody .s-tag ul li{
+    background-color: #605BFF;
+    color: #fff;
+    display: flex;
+    padding: 4px 4px 4px 8px;
+    border-radius: 4px;
+    align-items: center;
+    gap: 4px;
+}
+.table tbody .drop-down{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 7px 30px 7px 30px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    border: #c3c3c3 2px solid;
+}
